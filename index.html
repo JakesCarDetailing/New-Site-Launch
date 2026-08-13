@@ -1,0 +1,539 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jake's Car Detailing — Mobile Detailing in Agassiz, BC</title>
+<meta name="description" content="Jake's Car Detailing brings full exterior washes, interior resets, and complete detailing to your driveway across Agassiz, the Fraser Valley, and Greater Vancouver. Book online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="images/logo-mark.png">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a class="brand" href="#top" aria-label="Jake's Car Detailing — home">
+      <img src="images/logo-mark.png" alt="Jake's Car Detailing" width="34" height="34">
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a class="nav-book-mobile" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book a Detail ↗</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#area">Service Area</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+18775528664">
+        <strong>+1 877 552 8664</strong>
+      </a>
+      <a class="btn btn-primary btn-sm" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book a Detail</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="hero-media">
+      <img src="images/hero-exterior.jpg" alt="Freshly detailed Chevrolet Trailblazer parked in an Agassiz driveway with the Fraser Valley mountains behind it" width="1800" height="2400">
+    </div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Mobile Detailing — Fraser Valley &amp; Greater Vancouver</span>
+          <div class="hero-route" aria-hidden="true"></div>
+          <h1>We bring the shop <em>to your driveway.</em></h1>
+          <p class="lede">Exterior washes, interior resets, and full details — done at your home or office with our own water and power. No drop-off, no waiting room, just a few hours of your driveway.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book a Detail</a>
+            <a class="btn btn-ghost" href="#area">Where We Go</a>
+          </div>
+
+          <div class="trust-badges">
+            <span class="trust-badge">
+              <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M8 1.5 13.5 3.5V7.5C13.5 10.8 11.2 13.6 8 14.5C4.8 13.6 2.5 10.8 2.5 7.5V3.5L8 1.5Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M5.8 8 7.3 9.5 10.3 6.3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Fully Insured
+            </span>
+            <span class="trust-badge">
+              <span class="flag" aria-hidden="true">🇨🇦</span>
+              Proudly Canadian
+            </span>
+          </div>
+
+          <div class="hero-meta">
+            <div>Based in<strong>Agassiz, BC</strong></div>
+            <div>Serving<strong>Fraser Valley &amp; Greater Vancouver</strong></div>
+            <div>Vehicles<strong>Everyday commuters to performance &amp; luxury</strong></div>
+          </div>
+        </div>
+
+        <div class="hero-quote reveal" id="quote">
+          <h3>Request a quote</h3>
+          <p>Tell us about your vehicle and we'll follow up with a recommendation — usually the same day.</p>
+          <form id="quoteForm" action="mailto:info@jakescardetailing.ca" method="post" enctype="text/plain">
+            <div class="field-row">
+              <div class="field">
+                <label for="qFirstName">First name</label>
+                <input id="qFirstName" name="First name" type="text" required>
+              </div>
+              <div class="field">
+                <label for="qLastName">Last name</label>
+                <input id="qLastName" name="Last name" type="text" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="qEmail">Email</label>
+              <input id="qEmail" name="Email" type="email" required>
+            </div>
+            <div class="field">
+              <label for="qPhone">Phone</label>
+              <input id="qPhone" name="Phone" type="tel" required>
+            </div>
+            <div class="field">
+              <label for="qVehicle">Vehicle Year, Make, Model</label>
+              <input id="qVehicle" name="Vehicle Year, Make, Model" type="text" placeholder="e.g. 2021 Mazda3" required>
+            </div>
+
+            <div class="field">
+              <span class="field-legend">Type of Detail</span>
+              <div class="field-check-group">
+                <label class="field-check"><input type="checkbox" name="Type of Detail" value="Full Exterior &amp; Interior"><span>Full Exterior &amp; Interior</span></label>
+                <label class="field-check"><input type="checkbox" name="Type of Detail" value="Exterior"><span>Exterior</span></label>
+                <label class="field-check"><input type="checkbox" name="Type of Detail" value="Interior"><span>Interior</span></label>
+                <label class="field-check"><input type="checkbox" name="Type of Detail" value="Mold Remediation"><span>Mold Remediation</span></label>
+                <label class="field-check"><input type="checkbox" name="Type of Detail" value="Polishing"><span>Polishing</span></label>
+                <label class="field-check"><input type="checkbox" name="Type of Detail" value="Ceramic Coatings"><span>Ceramic Coatings</span></label>
+              </div>
+            </div>
+
+            <div class="field">
+              <span class="field-legend">Additional Add-ons</span>
+              <div class="field-check-group">
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Clay Bar Treatment"><span>Clay Bar Treatment</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Headlight Restoration"><span>Headlight Restoration</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Leather Conditioning"><span>Leather Conditioning</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Dressing for Plastics"><span>Dressing for Plastics</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Booster Seats"><span>Booster Seats</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Steam cleaning"><span>Steam cleaning</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Pet Hair"><span>Pet Hair</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Shampooing - Stain removal"><span>Shampooing - Stain removal</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Extraction"><span>Extraction</span></label>
+                <label class="field-check"><input type="checkbox" name="Additional Add-ons" value="Headliner"><span>Headliner</span></label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="qFrequency">Frequency Of Service</label>
+              <select id="qFrequency" name="Frequency Of Service" required>
+                <option value="" disabled selected>Select an option</option>
+                <option>One time</option>
+                <option>Weekly</option>
+                <option>Bi-Weekly</option>
+                <option>Monthly</option>
+                <option>Semi Monthly</option>
+                <option>Quarterly</option>
+                <option>Semi Annually</option>
+                <option>Annually</option>
+              </select>
+              <p class="field-hint">This gives immediate insight for reoccurring services.</p>
+            </div>
+
+            <button class="btn btn-primary btn-block" type="submit">Submit</button>
+            <p class="form-note">Opens your email app with these details pre-filled, addressed to info@jakescardetailing.ca.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section-pad" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Services &amp; Pricing</span>
+        <h2>Four packages, priced by vehicle size.</h2>
+        <p>Every price below comes straight from our online booking system, so what you see here is what you'll pay. Pick a package, choose your vehicle size at checkout, and book straight in.</p>
+      </div>
+
+      <div class="service-groups">
+
+        <!-- Exterior -->
+        <div class="service-group">
+          <div class="service-group-label">
+            <h3>Exterior</h3>
+            <span>WASH &amp; SHINE</span>
+          </div>
+          <div class="service-grid">
+
+            <article class="service-card reveal">
+              <div class="service-card-top">
+                <h4>Ordinary Wash</h4>
+                <div class="service-price"><span class="from">From</span><span class="amount">$49.99</span></div>
+              </div>
+              <p class="service-desc">A quick, affordable exterior refresh. We clear surface debris, apply a touch-less soap so grime never gets a chance to scratch the paint, then hand-wash with a proper wash mitt and towel-dry to finish.</p>
+              <button class="price-toggle" type="button" data-toggle="pw-1">See pricing by vehicle</button>
+              <div class="price-breakdown" id="pw-1">
+                <span><b>$49.99</b> Coupe/Sedan</span>
+                <span><b>$59.99</b> Small/Mid SUV</span>
+                <span><b>$59.99</b> Compact Truck</span>
+                <span><b>$74.99</b> 4 Door Truck</span>
+                <span><b>$74.99</b> Large SUV</span>
+              </div>
+              <div class="service-meta-row">
+                <span class="service-duration">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.3"/><path d="M7 3.6V7l2.4 1.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                  ~30 min
+                </span>
+                <div class="service-actions">
+                  <a class="btn btn-primary btn-sm" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card-top">
+                <h4>Exterior Detail</h4>
+                <div class="service-price"><span class="from">From</span><span class="amount">$149.99</span></div>
+              </div>
+              <p class="service-desc">A thorough exterior cleaning — the reset that makes a car feel worth driving again. Surface debris removal, a complete wheel and wheel-well cleaning, touch-less soap, hand wash, and a towel-dry finish.</p>
+              <button class="price-toggle" type="button" data-toggle="pw-2">See pricing by vehicle</button>
+              <div class="price-breakdown" id="pw-2">
+                <span><b>$149.99</b> Coupe/Sedan</span>
+                <span><b>$159.99</b> Small/Mid SUV</span>
+                <span><b>$169.00</b> Compact Truck</span>
+                <span><b>$175.99</b> 4 Door Truck</span>
+                <span><b>$175.99</b> Large SUV</span>
+              </div>
+              <div class="service-meta-row">
+                <span class="service-duration">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.3"/><path d="M7 3.6V7l2.4 1.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                  ~1 hr 30 min
+                </span>
+                <div class="service-actions">
+                  <a class="btn btn-primary btn-sm" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Interior -->
+        <div class="service-group">
+          <div class="service-group-label">
+            <h3>Interior</h3>
+            <span>DEEP CLEAN</span>
+          </div>
+          <div class="service-grid">
+
+            <article class="service-card reveal">
+              <div class="service-card-top">
+                <h4>Interior Detail</h4>
+                <div class="service-price"><span class="from">From</span><span class="amount">$175.99</span></div>
+              </div>
+              <p class="service-desc">Our full interior procedure. An intense blowout of every nook and cranny, upholstery vacuumed to a spotless finish, plastic, leather, doors and seats scrubbed and cleaned, floor mats washed, and streak-free interior glass.</p>
+              <button class="price-toggle" type="button" data-toggle="pw-3">See pricing by vehicle</button>
+              <div class="price-breakdown" id="pw-3">
+                <span><b>$175.99</b> Coupe</span>
+                <span><b>$199.99</b> Sedan</span>
+                <span><b>$175.99</b> 2 Door Truck</span>
+                <span><b>$265.99</b> 4 Door Truck</span>
+                <span><b>$249.99</b> Small/Mid SUV</span>
+                <span><b>$199.99</b> Extended Cab</span>
+                <span><b>$279.99</b> Large SUV</span>
+              </div>
+              <div class="service-meta-row">
+                <span class="service-duration">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.3"/><path d="M7 3.6V7l2.4 1.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                  ~1 hr 45 min
+                </span>
+                <div class="service-actions">
+                  <a class="btn btn-primary btn-sm" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Full Detail -->
+        <div class="service-group">
+          <div class="service-group-label">
+            <h3>Full Detail</h3>
+            <span>INSIDE &amp; OUT</span>
+          </div>
+          <div class="service-grid">
+
+            <article class="service-card reveal">
+              <div class="service-card-top">
+                <h4>Our Standard Detail</h4>
+                <div class="service-price"><span class="from">From</span><span class="amount">$309.99</span></div>
+              </div>
+              <p class="service-desc">The full reset, inside and out. Everything from the Exterior Detail — wash, wheels, wheel wells — plus everything from the Interior Detail: vacuum, upholstery, plastics, mats, and streak-free glass.</p>
+              <button class="price-toggle" type="button" data-toggle="pw-6">See pricing by vehicle</button>
+              <div class="price-breakdown" id="pw-6">
+                <span><b>$309.99</b> Coupe/Sedan</span>
+                <span><b>$324.99</b> Small/Mid SUV</span>
+                <span><b>$349.99</b> Large SUV</span>
+                <span><b>$349.99</b> Large Truck</span>
+                <span><b>$324.99</b> 2 Door Truck</span>
+              </div>
+              <div class="service-meta-row">
+                <span class="service-duration">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.3"/><path d="M7 3.6V7l2.4 1.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                  ~3 hrs 5 min
+                </span>
+                <div class="service-actions">
+                  <a class="btn btn-primary btn-sm" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+
+      <p class="pricing-note">Pricing shown is for mobile ("we come to you") appointments and may vary with distance from Agassiz. Exact totals are confirmed at checkout.</p>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section class="section-pad" id="gallery" style="background:var(--ink-800); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Recent Work</span>
+        <h2>Real cars, real driveways.</h2>
+        <p>No stock photography — every shot here is a vehicle we've actually detailed around Agassiz, the Fraser Valley, and Greater Vancouver.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <a class="gallery-item g-a" href="images/gallery-exterior-2.jpg" data-cap="Exterior Detail — Porsche Cayman">
+          <img src="images/gallery-exterior-2.jpg" alt="Detailed black Porsche Cayman parked in a driveway" loading="lazy">
+          <span class="cap"><b>Exterior Detail</b>Porsche Cayman</span>
+        </a>
+        <a class="gallery-item g-b" href="images/gallery-interior-1.jpg" data-cap="Interior Reset — BMW 3 Series">
+          <img src="images/gallery-interior-1.jpg" alt="Cleaned red leather interior and dashboard of a BMW 3 Series" loading="lazy">
+          <span class="cap"><b>Interior Reset</b>BMW 3 Series</span>
+        </a>
+        <a class="gallery-item g-c" href="images/gallery-interior-2.jpg" data-cap="Interior Reset — BMW 3 Series, rear seats">
+          <img src="images/gallery-interior-2.jpg" alt="Spotless red leather rear seats of a BMW 3 Series with sunroof" loading="lazy">
+          <span class="cap"><b>Interior Reset</b>BMW 3 Series, rear seats</span>
+        </a>
+        <a class="gallery-item g-d" href="images/process-1.jpg" data-cap="On the job — dash detailing">
+          <img src="images/process-1.jpg" alt="Hand detailing a car dashboard with a brush" loading="lazy">
+          <span class="cap"><b>On the job</b>Dash detailing</span>
+        </a>
+        <a class="gallery-item g-e" href="images/process-2.jpg" data-cap="On the job — steam extraction">
+          <img src="images/process-2.jpg" alt="Steam extraction tool cleaning a fabric car seat" loading="lazy">
+          <span class="cap"><b>On the job</b>Steam extraction</span>
+        </a>
+        <a class="gallery-item g-f" href="images/gallery-interior-3.jpg" data-cap="Interior Detail — Mazda3">
+          <img src="images/gallery-interior-3.jpg" alt="Clean dashboard and steering wheel of a Mazda3" loading="lazy">
+          <span class="cap"><b>Interior Detail</b>Mazda3</span>
+        </a>
+        <a class="gallery-item g-g" href="images/gallery-interior-4.jpg" data-cap="Interior Detail — Ram 1500">
+          <img src="images/gallery-interior-4.jpg" alt="Detailed interior cabin of a Ram pickup truck" loading="lazy">
+          <span class="cap"><b>Interior Detail</b>Ram 1500</span>
+        </a>
+        <a class="gallery-item g-h" href="images/gallery-interior-5.jpg" data-cap="Interior Detail — Hyundai Santa Fe">
+          <img src="images/gallery-interior-5.jpg" alt="Detailed interior dashboard of a Hyundai Santa Fe" loading="lazy">
+          <span class="cap"><b>Interior Detail</b>Hyundai Santa Fe</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-photos reveal">
+          <img class="ph-1" src="images/about-1.jpg" alt="Freshly detailed red Chevrolet Trailblazer in a driveway">
+          <img class="ph-2" src="images/mobile-setup.jpg" alt="Mobile detailing equipment set up in a customer's driveway">
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">Why Jake's</span>
+          <h2>One appointment. Not a drop-off.</h2>
+          <p>Jake's Car Detailing is based in Agassiz and works out of the back of a truck, not a shop. We show up with our own water, power, and equipment, so your car gets detailed in your driveway while you get on with your day.</p>
+          <p>Every job on this site is one we've actually done — from daily commuters to the occasional Porsche — because a photo of someone else's car doesn't tell you much about what we'll do with yours.</p>
+
+          <ul class="checklist">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5 7 13l7.5-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              We bring our own water, power, and equipment
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5 7 13l7.5-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              One vehicle at a time — no queue, no drop-off
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5 7 13l7.5-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Pricing by vehicle size, shown up front, no surprises at pickup
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5 7 13l7.5-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Book online, or just call — we're happy to walk you through packages
+            </li>
+          </ul>
+
+          <div class="hero-ctas" style="margin-top:34px;">
+            <a class="btn btn-primary" href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Book a Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICE AREA ================= -->
+  <section class="section-pad" id="area" style="background:var(--ink-800); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="container">
+      <div class="area-wrap">
+        <div class="reveal">
+          <span class="eyebrow">Where We Go</span>
+          <h2 style="font-size:clamp(28px,4vw,42px); margin-top:14px; font-weight:700;">Based in Agassiz. Happy to drive.</h2>
+          <p style="margin-top:16px; color:var(--text-2); font-size:16.5px; max-width:480px;">We're centred on Agassiz and regularly detail vehicles across the surrounding Fraser Valley, with bookings across Greater Vancouver by appointment. Outside these areas? Ask anyway — if it's a reasonable drive, we'll usually make it work.</p>
+
+          <div class="area-note" style="margin-top:28px;">
+            <b>Note:</b> service-area list below is our general coverage — confirm your exact address at booking, since pricing on some packages can shift a little with distance from Agassiz.
+          </div>
+        </div>
+
+        <div class="route reveal">
+          <div class="route-stop">
+            <div class="route-dot base"><span></span></div>
+            <div><h4>Agassiz</h4><p>Home base</p></div>
+          </div>
+          <div class="route-stop">
+            <div class="route-dot"><span></span></div>
+            <div><h4>Harrison Hot Springs</h4><p>~10 min away</p></div>
+          </div>
+          <div class="route-stop">
+            <div class="route-dot"><span></span></div>
+            <div><h4>Rosedale &amp; Popkum</h4><p>~15 min away</p></div>
+          </div>
+          <div class="route-stop">
+            <div class="route-dot"><span></span></div>
+            <div><h4>Chilliwack</h4><p>~25 min away</p></div>
+          </div>
+          <div class="route-stop">
+            <div class="route-dot"><span></span></div>
+            <div><h4>Hope</h4><p>~30 min away</p></div>
+          </div>
+          <div class="route-stop">
+            <div class="route-dot"><span></span></div>
+            <div><h4>Greater Vancouver</h4><p>By appointment</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section-pad" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Good to Know</span>
+        <h2>Frequently asked questions.</h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            What do you need from me on the day?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Just access to an outdoor water tap and a standard power outlet at the address. If either isn't available, let us know when you book and we'll figure out a plan.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Do I need to be home during the appointment?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Not necessarily — as long as we can access the vehicle, water, and power, plenty of customers leave us to it. We'll confirm the details with you when you book.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            What happens if it's raining?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Exterior work is weather-dependent — if rain is forecast for your appointment, we'll reach out to reschedule. Interior-only details can often still go ahead under a carport or garage.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            How much does it actually cost?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Every package above lists pricing by vehicle size, pulled straight from our booking system. Distance from Agassiz can adjust the total slightly — you'll see the exact price before you confirm at checkout.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Do you travel outside the Fraser Valley?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Our regular coverage is Agassiz, Harrison Hot Springs, Rosedale, Popkum, Chilliwack, and Hope — see the Service Area section above. We also take bookings across Greater Vancouver by appointment. Outside that, get in touch and we'll let you know if it's workable.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            How do I book?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Easiest way is our online shop — pick a package, choose your vehicle size, and book a time. Prefer to talk it through first? Call or text +1 877 552 8664, or email info@jakescardetailing.ca.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="footer-brand" href="#top">
+        <img src="images/logo-mark.png" alt="">
+        <span>Jake's Car Detailing</span>
+      </a>
+
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#about">About</a>
+          <a href="#area">Service Area</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <a href="tel:+18775528664">+1 877 552 8664</a>
+          <a href="mailto:info@jakescardetailing.ca">info@jakescardetailing.ca</a>
+          <p>Agassiz, BC</p>
+        </div>
+        <div class="footer-col">
+          <h5>Booking</h5>
+          <a href="https://app.urable.com/virtual-shop/gp8eAvjBryjv6zHmoeiD" target="_blank" rel="noopener">Online Shop ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Jake's Car Detailing. All rights reserved.</span>
+      <span>Agassiz, the Fraser Valley &amp; Greater Vancouver</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+  <img id="lightboxImg" src="" alt="">
+  <div class="lightbox-cap" id="lightboxCap"></div>
+</div>
+
+<script src="js/script.js"></script>
